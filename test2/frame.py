@@ -1,11 +1,9 @@
-# arr = ["Hello", "World", "in", "a", "frame"]
 arr = ["Hello   ", "qefqefqefWorld", "in", "a", "framecefef", 'fgfwwgfwegwegwg', 'efq']
 
 longest = 0
 for i in arr:
     if len(i) > longest:
         longest =  len(i)
-
 
 first_line = "****"
 for i in range(longest):
