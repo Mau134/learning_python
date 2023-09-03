@@ -3,7 +3,7 @@ def print_strings_in_frame(strings):
         print("Empty list")
         return
 
-    max_length = max(len(s) for s in strings)
+    max_length = max(len(s) for s in strings) #Avoid using in build functions, use logic and loops to achive this.
     border = '+' + '-' * (max_length + 2) + '+'
 
     print(border)
